@@ -1,0 +1,245 @@
+{
+  "name": "Name",
+  "author": "Author",
+  "transcription": "Transcription",
+  "binds": {
+    "row1item1": {
+      "id": "row1item1",
+      "color": "Aqua",
+      "effect": "flash('row1item1', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "intro.wav",
+      "key": 49
+    },
+    "row1item2": {
+      "id": "row1item2",
+      "color": "Lime",
+      "effect": "flash('row1item2', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note1.wav",
+      "key": 50
+    },
+    "row1item3": {
+      "id": "row1item3",
+      "color": "Lime",
+			"effect": "flash('row1item3', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note2.wav",
+      "key": 51
+    },
+    "row1item4": {
+      "id": "row1item4",
+      "color": "Lime",
+      "effect": "flash('row1item4', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note3.wav",
+      "key": 52
+    },
+    "row1item5": {
+      "id": "row1item5",
+      "color": "Lime",
+			"effect": "flash('row1item5', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note4.wav",
+      "key": 53
+    },
+    "row1item6": {
+      "id": "row1item6",
+      "color": "Lime",
+			"effect": "flash('row1item6', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note5.wav",
+      "key": 54
+    },
+    "row1item7": {
+      "id": "row1item7",
+      "color": "Lime",
+			"effect": "flash('row1item7', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note6.wav",
+      "key": 55
+    },
+    "row1item8": {
+      "id": "row1item8",
+      "color": "Lime",
+			"effect": "flash('row1item8', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note7.wav",
+      "key": 56
+    },
+    "row2item1": {
+      "id": "row2item1",
+      "color": "Lime",
+			"effect": "flash('row2item1', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note8.wav",
+      "key": 57
+    },
+    "row2item2": {
+      "id": "row2item2",
+      "color": "Lime",
+			"effect": "flash('row1item2', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note9.wav",
+      "key": 48
+    },
+    "row2item3": {
+      "id": "row2item3",
+      "color": "Lime",
+			"effect": "flash('row2item3', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note10.wav",
+      "key": 187
+    },
+    "row2item4": {
+      "id": "row2item4",
+      "color": "Green",
+			"effect": "flash('row2item4', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note11.wav",
+      "key": 81
+    },
+    "row2item5": {
+      "id": "row2item5",
+      "color": "Green",
+			"effect": "flash('row2item5', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "note12.wav",
+      "key": 87
+    },
+    "row2item6": {
+      "id": "row2item6",
+      "color": "Green",
+      "hasGradient": "true",
+      "sample": "note13.wav",
+      "key": 69
+    },
+    "row2item7": {
+      "id": "row2item7",
+      "color": "Green",
+      "hasGradient": "true",
+      "sample": "note14.wav",
+      "key": 82
+    },
+    "row2item8": {
+      "id": "row2item8",
+      "color": "Green",
+      "hasGradient": "true",
+      "sample": "note15.wav",
+      "key": 84
+    },
+    "row3item1": {
+      "id": "row3item1",
+      "color": "Red",
+      "hasGradient": "true",
+      "sample": "bnote1.wav",
+      "key": 65
+    },
+    "row3item2": {
+      "id": "row3item2",
+      "color": "Red",
+      "hasGradient": "true",
+      "sample": "bnote2.wav",
+      "key": 83
+    },
+    "row3item3": {
+      "id": "row3item3",
+      "color": "Red",
+      "hasGradient": "true",
+      "sample": "bnote3.wav",
+      "key": 68
+    },
+    "row3item4": {
+      "id": "row3item4",
+      "color": "Red",
+      "hasGradient": "true",
+      "sample": "bnote4.wav",
+      "key": 70
+    },
+    "row3item5": {
+      "id": "row3item5",
+      "color": "Red",
+      "hasGradient": "true",
+      "sample": "bnote5.wav",
+      "key": 71
+    },
+    "row3item6": {
+      "id": "row3item6",
+      "color": "Red",
+      "hasGradient": "true",
+      "sample": "bnote6.wav",
+      "key": 72
+    },
+    "row4item1": {
+      "id": "row4item1",
+      "color": "Yellow",
+      "hasGradient": "true",
+      "sample": "dnote1.wav",
+      "key": 89
+    },
+    "row4item2": {
+      "id": "row4item2",
+      "color": "Yellow",
+      "hasGradient": "true",
+      "sample": "dnote2.wav",
+      "key": 88
+    },
+    "row4item3": {
+      "id": "row4item3",
+      "color": "Yellow",
+      "hasGradient": "true",
+      "sample": "dnote3.wav",
+      "key": 67
+    },
+    "row4item4": {
+      "id": "row4item4",
+      "color": "Yellow",
+      "hasGradient": "true",
+      "sample": "dnote4.wav",
+      "key": 86
+    },
+    "row4item5": {
+      "id": "row4item5",
+      "color": "Yellow",
+      "hasGradient": "true",
+      "sample": "dnote5.wav",
+      "key": 66
+    },
+    "row4item6": {
+      "id": "row4item6",
+      "color": "Yellow",
+      "hasGradient": "true",
+      "sample": "dnote6.wav",
+      "key": 78
+    },
+    "row4item7": {
+      "id": "row4item7",
+      "color": "Orange",
+      "hasGradient": "true",
+      "sample": "drop2_note7.wav",
+      "key": 77
+    },
+    "row4item8": {
+      "id": "row4item8",
+      "color": "Orange",
+      "hasGradient": "true",
+      "sample": "drop2_note8.wav",
+      "key": 188
+    },
+    "row3item8": {
+      "id": "row3item8",
+      "color": "Orange",
+      "hasGradient": "true",
+      "sample": "drop_end.wav",
+      "key": 190
+    },
+    "row8item8": {
+      "id": "row8item8",
+      "color": "Aqua",
+      "effect": "flash('row8item8', 8000, 4);",
+      "hasGradient": "true",
+      "sample": "defaultsound.mp3",
+      "key": 17
+    }
+  }
+}

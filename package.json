@@ -1,0 +1,11 @@
+{
+  "name": "Virtual Launchpad",
+  "version": "0.0.2",
+  "description": "Virtual Launchpad For Performing",
+  "main": "server.js",
+  "author": "Kevin Krpálek",
+  "dependencies": {
+    "express": "^4.16.3",
+    "formidable": "^1.2.1"
+  }
+}

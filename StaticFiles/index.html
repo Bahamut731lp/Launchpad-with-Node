@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Virtual Launchpad</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+
+	</div>
+	<!-- Buttons will be generated here -->
+	<div class="grid">
+	</div>
+	<!-- All audio elements for each button -->
+	<div class="audioElements">
+		<!-- <div id="ble"></div> -->
+	</div>
+	<!-- Configuration Modal -->
+	<div class="modal">
+		<div class="modalContent">
+			<div class="modalHeader">
+				<h1 id="modalName"></h1>
+			</div>
+			<div class="modalBody">
+				<!-- Configuration form -->
+					<label class="label">Color:</label>
+				  <select id="color" name="color" class="menu">
+				     <option value="Red">Red</option>
+						 <option value="Lime">Lime</option>
+				     <option value="Green">Green</option>
+						 <option value="Aqua">Aqua</option>
+				     <option value="Blue">Blue</option>
+				     <option value="Yellow">Yellow</option>
+				     <option value="Orange">Orange</option>
+						 <option value="Violet">Violet</option>
+						 <option value="Magenta">Magenta</option>
+				   </select>
+
+					<!-- Effect -->
+					<label class="label">Effect: </label>
+					<input type="text" class="menu" id="fx" name="fx"></input>
+
+					<!-- Has Gradient? -->
+					<label class="label">Gradient: </label>
+					<input id="gradientCheck" type="checkbox" class="menu"></input>
+
+					<!-- Uploading Sample -->
+					<label class="label">Sample: </label>
+					<input id="fileName" type="file" value="" accept=".mp3, .wav, .ogg" class="menu" ></input>
+
+					<!-- Key -->
+					<label class="label">Key: </label>
+					<input name="keyCode" type="button" id="key" onclick="boundKey()" value="Click Me!" class="menu"></input>
+
+					<div class="menu">
+					<button class="closeModal" onclick="closeModal()">Close</span>
+					<button class="closeModal" onclick="submit()">Save</span>
+					</div>
+			</div>
+	  </div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	</body>
+
+</html>

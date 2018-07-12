@@ -1,0 +1,100 @@
+:root{
+	--white: #ecf0f1;
+	--gray: #7f8c8d;
+	--light_gray: #bdc3c7;
+	--dark_gray: #2d3436;
+
+}
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: var(--light_gray);
+}
+.grid{
+	display: grid;
+	grid-gap: 10px 10px;
+	grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
+	grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px;
+	justify-content: center;
+}
+.grid-item{
+	cursor: pointer;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 20%;
+	border-style: solid;
+	transition: 0.2s;
+}
+.optionsMenu{
+	visibility: hidden;
+	background-color: var(--gray);
+	float: right;
+	width: 30%;
+	height: 500px;
+}
+.optionsButton{
+	cursor: pointer;
+	transition: 0.2s;
+	height: 40px;
+	text-align: center;
+	color: white;
+}
+.optionsButton:hover{
+	background-color: var(--light_gray);
+}
+.modal{
+	display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.modalContent {
+  background-color: var(--white);
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+}
+.modalBody{
+	display: grid;
+	grid-template-columns: [labels] 150px [inputs] auto;
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-row-gap: 10px;
+	grid-auto-flow: column;
+}
+.label{
+	grid-column: 1 / 2;
+	text-align: right;
+	margin-right: 10px;
+}
+.menu{
+	grid-column: 2 / 3;
+}
+.configForm{
+	text-align: center;
+	text-transform: uppercase;
+	float: left;
+}
+.closeModal{
+	position: relative;
+	float: right;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 10px;
+	border-style: solid;
+	border-color: var(--light_gray);
+	border-width: 2px;
+	transition: 0.2s;
+	margin-left: 10px;
+}
+form{
+	width: inherit;
+	height: 100%;
+}
+.closeModal:hover{
+	background-color: var(--light_gray);
+}

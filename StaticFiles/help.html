@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Virtual Launchpad</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<style>
+		table, th, td {
+		    border-width: 1px;
+				border-style: solid;
+				border-color: black;
+				border-collapse: collapse;
+				padding: 5px;
+		}
+		th, td {
+		    text-align: left;
+		}
+	</style>
+	</head>
+
+	<body>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Syntax</th>
+				<th>Example</th>
+			</tr>
+			<tr>
+				<td>Flash</td>
+				<td>Flash button for given amout of time</td>
+				<td>flash(id, duration, interval)</td>
+				<td>flash("row1item1", 4000, 4);</td>
+			</tr>
+			<tr>
+				<td>Background Flash</td>
+				<td>Flash window background for given amout of time and color</td>
+				<td>bg_Flash(color, duration, interval)</td>
+				<td>bg_Flash("Red", 4000, 4);</td>
+			</tr>
+			<tr>
+				<td>Light Up</td>
+				<td>Light Up the Button until sample isn't finished</br><i>Note that color argument is optional.</i></td>
+				<td>lightUp(id, color)</td>
+				<td>lightUp("row1item1", "Red");</td>
+			</tr>
+			<tr>
+				<td>Light Up Background</td>
+				<td>Light Up the background until sample isn't finished</td>
+				<td>bg_lightUp(id, duration, interval)</td>
+				<td>bg_lightUp("row1item1", 4000, 4);</td>
+			</tr>
+		</table>
+	</body>
+
+</html>
