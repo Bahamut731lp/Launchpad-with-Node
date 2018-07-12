@@ -26,12 +26,12 @@ All data about buttons are stored in [binds.json](StaticFiles/binds.json). You c
 
 ## Known Bugs and Issues
 
-###Effects
+### Effects
 - Currently only flash effect "works" - it'll be changed in next update (If i'll get to it :smiley:)
 - Blank effect property can cause a serious issues and delay the sound triggering
 - ID is required... hopefuly I'll make it optional... 
 
-###Others
+### Others
 - File upload won't change it's text - This can cause confusion. - Checking Binds.json is recommended.
 
 ## Future Plans
