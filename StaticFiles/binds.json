@@ -6,7 +6,7 @@
     "row1item1": {
       "id": "row1item1",
       "color": "Aqua",
-      "effect": "flash('row1item1', 8000, 4);",
+      "effect": "flash('row1item1', 8000);bg_Flash('Red', 8000)",
       "hasGradient": "true",
       "sample": "intro.wav",
       "key": 49
@@ -14,7 +14,7 @@
     "row1item2": {
       "id": "row1item2",
       "color": "Lime",
-      "effect": "flash('row1item2', 8000, 4);",
+      "effect": "lightUp('row1item2');bg_lightUp('row1item2')",
       "hasGradient": "true",
       "sample": "note1.wav",
       "key": 50
@@ -22,7 +22,7 @@
     "row1item3": {
       "id": "row1item3",
       "color": "Lime",
-			"effect": "flash('row1item3', 8000, 4);",
+			"effect": "flash('row1item3', 8000);",
       "hasGradient": "true",
       "sample": "note2.wav",
       "key": 51
@@ -30,7 +30,7 @@
     "row1item4": {
       "id": "row1item4",
       "color": "Lime",
-      "effect": "flash('row1item4', 8000, 4);",
+      "effect": "flash('row1item4', 8000);",
       "hasGradient": "true",
       "sample": "note3.wav",
       "key": 52
@@ -38,7 +38,7 @@
     "row1item5": {
       "id": "row1item5",
       "color": "Lime",
-			"effect": "flash('row1item5', 8000, 4);",
+			"effect": "flash('row1item5', 8000);",
       "hasGradient": "true",
       "sample": "note4.wav",
       "key": 53
@@ -46,7 +46,7 @@
     "row1item6": {
       "id": "row1item6",
       "color": "Lime",
-			"effect": "flash('row1item6', 8000, 4);",
+			"effect": "flash('row1item6', 8000);",
       "hasGradient": "true",
       "sample": "note5.wav",
       "key": 54
@@ -54,7 +54,7 @@
     "row1item7": {
       "id": "row1item7",
       "color": "Lime",
-			"effect": "flash('row1item7', 8000, 4);",
+			"effect": "flash('row1item7', 8000);",
       "hasGradient": "true",
       "sample": "note6.wav",
       "key": 55
@@ -62,7 +62,7 @@
     "row1item8": {
       "id": "row1item8",
       "color": "Lime",
-			"effect": "flash('row1item8', 8000, 4);",
+			"effect": "flash('row1item8', 8000);",
       "hasGradient": "true",
       "sample": "note7.wav",
       "key": 56
@@ -70,7 +70,7 @@
     "row2item1": {
       "id": "row2item1",
       "color": "Lime",
-			"effect": "flash('row2item1', 8000, 4);",
+			"effect": "flash('row2item1', 8000);",
       "hasGradient": "true",
       "sample": "note8.wav",
       "key": 57
@@ -78,7 +78,7 @@
     "row2item2": {
       "id": "row2item2",
       "color": "Lime",
-			"effect": "flash('row1item2', 8000, 4);",
+			"effect": "flash('row1item2', 8000);",
       "hasGradient": "true",
       "sample": "note9.wav",
       "key": 48
@@ -86,7 +86,7 @@
     "row2item3": {
       "id": "row2item3",
       "color": "Lime",
-			"effect": "flash('row2item3', 8000, 4);",
+			"effect": "flash('row2item3', 8000);",
       "hasGradient": "true",
       "sample": "note10.wav",
       "key": 187
@@ -94,7 +94,7 @@
     "row2item4": {
       "id": "row2item4",
       "color": "Green",
-			"effect": "flash('row2item4', 8000, 4);",
+			"effect": "flash('row2item4', 8000);",
       "hasGradient": "true",
       "sample": "note11.wav",
       "key": 81
@@ -102,7 +102,7 @@
     "row2item5": {
       "id": "row2item5",
       "color": "Green",
-			"effect": "flash('row2item5', 8000, 4);",
+			"effect": "flash('row2item5', 8000);",
       "hasGradient": "true",
       "sample": "note12.wav",
       "key": 87

@@ -19,7 +19,7 @@
 	</style>
 	</head>
 
-	<body>
+	<body id="body">
 		<table>
 			<tr>
 				<th>Name</th>
@@ -30,14 +30,14 @@
 			<tr>
 				<td>Flash</td>
 				<td>Flash button for given amout of time</td>
-				<td>flash(id, duration, interval)</td>
-				<td>flash("row1item1", 4000, 4);</td>
+				<td>flash(id, duration)</td>
+				<td>flash("row1item1", 4000);</td>
 			</tr>
 			<tr>
 				<td>Background Flash</td>
 				<td>Flash window background for given amout of time and color</td>
-				<td>bg_Flash(color, duration, interval)</td>
-				<td>bg_Flash("Red", 4000, 4);</td>
+				<td>bg_Flash(color, duration)</td>
+				<td>bg_Flash("Red", 4000);</td>
 			</tr>
 			<tr>
 				<td>Light Up</td>
@@ -47,9 +47,9 @@
 			</tr>
 			<tr>
 				<td>Light Up Background</td>
-				<td>Light Up the background until sample isn't finished</td>
-				<td>bg_lightUp(id, duration, interval)</td>
-				<td>bg_lightUp("row1item1", 4000, 4);</td>
+				<td>Light Up the background until sample isn't finished</br><i>Note that color argument is optional.</i></td>
+				<td>bg_lightUp(id, color)</td>
+				<td>bg_lightUp("row1item1", "Red");</td>
 			</tr>
 		</table>
 	</body>

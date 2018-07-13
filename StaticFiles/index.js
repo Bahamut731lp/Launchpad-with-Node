@@ -59,6 +59,7 @@ function openModal(id){
 		$("#color").prop("value", binds[id].color);
 		$("#fx").prop("value", binds[id].effect);
 		$("#gradientCheck").prop("checked", binds[id].hasGradient=="true" ? true : false );
+		$("#sample").html(binds[id].sample);
 		$("#key").prop("value", binds[id].key == null ? 'Click me!' : binds[id].key);
 		//Targeting and showing modal
 		$(".modal").fadeIn();
@@ -97,6 +98,7 @@ function play(id){
 }
 
 function playFX(fx){
+
 		let fxs = fx.split(";");
 		for (var i = 0; i <= fxs.length; i++){
 			var placeholderFunction = new Function(fxs[i]);
@@ -106,23 +108,34 @@ function playFX(fx){
 
 
 
-function flash(id, duration, interval){
+function flash(id, duration){
+
 	binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${binds[id].color} 50%`) : $("#"+id).css("background", "white");
-	setTimeout(function(){binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${binds[id].color} 50%, #191919 99%`) : $("#"+id).css("background-color", binds[id].color);}, Number(duration));
+	setTimeout(function(){binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${binds[id].color} 50%, #191919 99%`) : $("#"+id).css("background-color", binds[id].color);}, duration);
 }
-function bg_Flash(color, duration, interval){
 
+function bg_Flash(color, duration){
+
+	$("body").css("background-color", color);
+	setTimeout(function(){$("body").css("background-color", "var(--light_gray)");}, duration);
 }
+
 function lightUp(id, color){
-	//Checking if color argument was passed
-	let color = color || binds[id].color;
+	color = color || binds[id].color;
 
-	binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${color} 50%`) : $("#"+id).css("background", "white");
-	$(".a"+altid).on('ended', function() {
-		binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${color} 50%, #191919 99%`) : $("#"+id).css("background-color", color);
+	binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${binds[id].color} 50%`) : $("#"+id).css("background", "white");
+	$(".a"+id).on('ended', function() {
+		binds[id].hasGradient=="true" ? $("#"+id).css("background", `radial-gradient(circle, white 1%, ${binds[id].color} 50%, #191919 99%`) : $("#"+id).css("background-color", color);
+	});
+
+}
+function bg_lightUp(id, color){
+	color = color || binds[id].color;
+	$("body").css("background-color", color);
+	$(".a"+id).on('ended', function() {
+		$("body").css("background-color", "var(--light_gray)")
 	});
 }
-
 
 //Method called after clicking the submit button in modal window
 function submit(){
