@@ -10,6 +10,13 @@
 }
 body{
 	background-color: var(--light_gray);
+	transition: 0.1s;
+}
+#sample{
+	border: 1px solid gray;
+	background-color: white;
+	font-size: 0.875em;
+	cursor: pointer;
 }
 .grid{
 	display: grid;
