@@ -25,17 +25,9 @@ If you want different port, just change the variable in server.js and it'll chan
 All data about buttons are stored in [binds.json](StaticFiles/binds.json). You can manually change properties there.
 
 ## Known Bugs and Issues
-
-### Effects
-- Currently only flash effect "works" - it'll be changed in next update (If i'll get to it :smiley:)
-- Blank effect property can cause a serious issues and delay the sound triggering
-- ID is required... hopefuly I'll make it optional... 
-
-### Others
-- File upload won't change it's text - This can cause confusion. - Checking Binds.json is recommended.
+- Most of the bugs are resolved. Those which were not are now features.
 
 ## Future Plans
-1. Fix bugs :joy:
-2. Custom styled inputs
-3. Option to show which button was binded (istead of key code)
-4. More button designs
+1. Custom styled inputs
+2. Option to show which button was binded (istead of key code)
+3. More button designs
