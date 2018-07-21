@@ -9,7 +9,7 @@ Simple visual application for triggering sound with key press.
 
 You'll have to install [NodeJS](https://nodejs.org/). You can find the download link and instructions there as well.  
 This repo also uses [Express](https://expressjs.com/) and [Body Parser](https://www.npmjs.com/package/body-parser).  
-*They're saved in the repo, but in case it wouldn't work, try downloading them.*
+*They're saved in the repo, but in case it wouldn't work, try downloading them using NPM*
 
 ### First start
 Run command line in project's directory and write
